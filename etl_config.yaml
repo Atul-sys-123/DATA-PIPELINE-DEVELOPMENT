@@ -1,0 +1,20 @@
+# etl_config.yaml
+source:
+  type: csv
+  path: data.csv  # Create this sample file too
+
+target:
+  type: csv
+  path: processed_data.csv
+
+transformations:
+  handle_missing_values:
+    age: drop
+    income: fill
+  fill_values:
+    income: 0
+  remove_duplicates:
+    - user_id
+  required_columns:
+    - user_id
+    - email

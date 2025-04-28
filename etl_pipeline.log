@@ -1,0 +1,15 @@
+2025-04-28 14:12:22,327 - ERROR - Error loading config file: [Errno 2] No such file or directory: 'etl_config.yaml'
+2025-04-28 14:15:27,689 - ERROR - Error loading config file: [Errno 2] No such file or directory: 'etl_config.yaml'
+2025-04-28 14:16:28,927 - ERROR - Error loading config file: [Errno 2] No such file or directory: 'etl_config.yaml'
+2025-04-28 14:18:26,187 - INFO - Extracting data from csv
+2025-04-28 14:18:26,192 - ERROR - Extraction failed: [Errno 2] No such file or directory: 'input_data.csv'
+2025-04-28 14:18:26,193 - ERROR - ETL process failed: [Errno 2] No such file or directory: 'input_data.csv'
+2025-04-28 14:19:47,981 - INFO - Extracting data from csv
+2025-04-28 14:19:47,984 - ERROR - Extraction failed: [Errno 2] No such file or directory: 'input_data.csv'
+2025-04-28 14:19:47,984 - ERROR - ETL process failed: [Errno 2] No such file or directory: 'input_data.csv'
+2025-04-28 14:20:23,155 - INFO - Extracting data from csv
+2025-04-28 14:20:23,157 - ERROR - Extraction failed: [Errno 2] No such file or directory: 'input_data.csv'
+2025-04-28 14:20:23,158 - ERROR - ETL process failed: [Errno 2] No such file or directory: 'input_data.csv'
+2025-04-28 14:22:22,243 - INFO - Extracting data from csv
+2025-04-28 14:22:22,269 - INFO - Applying transformations
+2025-04-28 14:22:22,279 - ERROR - ETL process failed: ['\\\\
